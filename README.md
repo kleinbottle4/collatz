@@ -5,6 +5,7 @@ All files are released under a Free license, the GPL v3.
 The main files to focus on are
  - collatz.h
  - collatz.lisp
+
  and
  - collatz.py
 
