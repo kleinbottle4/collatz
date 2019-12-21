@@ -8,12 +8,11 @@
 int collatz(int n)
 {
     printf("%d\n", n);
-    if (n == 1) {
+    if (n == 1)
         return 1;
-    } else if (n % 2 == 0) {
+    else if (n % 2 == 0)
         return collatz(n / 2);
-    } else {
+    else
         return collatz(n * 3 + 1);
-    }
 }
 
